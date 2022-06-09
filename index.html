@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit = "return functionSub()">
+        <h2>SIGN-UP FORM</h2>
+        <label for="">First Name:</label>
+        <br>
+        <input id="fName_input" type="text" placeholder="Enter first name:" required maxlength="10">
+        <br><br>
+        <label for="">Last Name:</label>
+        <br>
+        <input id="lName_input" type="text" placeholder="Enter last name:" required maxlength="10">
+        <br><br>
+        <label for="">Date of birth:</label>
+        <br>
+        <input id="input_Date" type="date" placeholder="Enter valid email">
+        <br><br>
+        <label for="">Email:</label>
+        <br>
+        <input id="input_email" type="email" placeholder="Enter valid email" required>
+        <br><br>
+        <label for="">Phone:</label>
+        <br>
+        <input id="phone_input" type="tel" placeholder="Enter phone number" maxlength="10">
+        <br><br>
+        <label for="">Password:</label>
+        <br>
+        <input id="passwerd1" type="password" placeholder="Enter password" required>
+        <br><br>
+        <label for="">Confirm Password:</label>
+        <br>
+        <input id="passwerd2" type="password" placeholder="confirm password" required>
+        <br><br>
+     
+        <button id="submit_btn">SUMBIT</button>
+    </form>
+    <button onclick="validPasswerdFunc ()" id="sub_btn">SUMBIT</button>
+    <script src="main.js"></script>
+</body>
+</html>

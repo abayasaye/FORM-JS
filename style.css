@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to right #0f2027 , #203a43 , #2c5364);
+    font-family: 'montserrat',sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+form{
+    background: whitesmoke;
+    justify-items: center;
+    border-radius: 4px solid black;
+    font-size: 15px;
+    width: 50%;
+
+}
+
+#submit_btn{
+    padding:10px;
+    margin-top: 10px;
+    width:50%;
+    border-radius:12px;
+    background:orange;
+}
