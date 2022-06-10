@@ -1,5 +1,5 @@
 function functionSub() {
-    if (fLNameFunc () , ageAbove18() , validEmailInput () , validPhoneFunc()) {
+    if (fLNameFunc () , ageAbove18() , validEmailInput () , validPhoneFunc() , validPasswerdFunc ()) {
         return true;
     }
     return false;
@@ -49,14 +49,15 @@ function validPhoneFunc () {
     return false;
 
 }
-
+var passD = passwerd1.value;
 function validPasswerdFunc () {
-    if (passwerd1.value==passwerd2.value) {
-        passwerd1.toUpperCase(0)
+    var regexPass = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,12})/;
+    if ((regexPass.test(passwerd1.value))&&(passwerd1.value==passwerd2.value) && (passwerd1.value.toUpperCase([0])) && passwerd1.value.toLowerCase([1])) { 
+        alert("best");
         return true;
     }
-   
-    return false;
+        alert("sedd");
+        return false;
         
     }
 
