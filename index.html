@@ -8,40 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form onsubmit = "return functionSub()">
+    <form onsubmit = "return functionSub()" action="mailto:">
         <h2>SIGN-UP FORM</h2>
-        <label for="">First Name:</label>
+        <label id="first_label" for=""></label>
         <br>
         <input id="fName_input" type="text" placeholder="Enter first name:" required maxlength="10">
         <br><br>
-        <label for="">Last Name:</label>
+        <label id="last_label" for=""></label>
         <br>
         <input id="lName_input" type="text" placeholder="Enter last name:" required maxlength="10">
         <br><br>
-        <label for="">Date of birth:</label>
+        <label id="date_label" for=""></label>
         <br>
         <input id="input_Date" type="date" placeholder="Enter valid email">
         <br><br>
-        <label for="">Email:</label>
+        <label id="email_label" for=""></label>
         <br>
         <input id="input_email" type="email" placeholder="Enter valid email" required>
         <br><br>
-        <label for="">Phone:</label>
+        <label id="phone_label" for=""></label>
         <br>
         <input id="phone_input" type="tel" placeholder="Enter phone number" maxlength="10">
         <br><br>
-        <label for="">Password:</label>
+        <label id="pas_class1" for=""></label>
         <br>
         <input id="passwerd1" type="password" placeholder="Enter password" required>
         <br><br>
-        <label for="">Confirm Password:</label>
+        <label id="pas_class2" for=""></label>
         <br>
         <input id="passwerd2" type="password" placeholder="confirm password" required>
         <br><br>
      
         <button id="submit_btn">SUMBIT</button>
     </form>
-    <button onclick="" id="sub_btn">SUMBIT</button>
     <script src="main.js"></script>
-</body>
+</body> 
 </html>
