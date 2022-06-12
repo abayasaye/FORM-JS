@@ -55,7 +55,7 @@ function validPhoneFunc () {
 var passD = passwerd1.value;
 function validPasswerdFunc () {
     var regexPass = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,12})/;
-    if ((regexPass.test(passwerd1.value))&&(passwerd1.value==passwerd2.value) && (passwerd1.value.toUpperCase([0])) && passwerd1.value.toLowerCase([1])) { 
+    if ((regexPass.test(passwerd1.value))&&(passwerd1.value==passwerd2.value) && (passwerd1.value.toUpperCase()[0]) && passwerd1.value.toLowerCase()[1]) { 
         return true;
     }
         pas_class1.innerHTML += "*<span>passwerd not storng enough:</span>";
